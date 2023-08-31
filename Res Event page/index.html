@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ 
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Events Page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="../ResponsiveHome/index.html" class="nav-logo"
+          ><img src="./assests/VTBIF Logo2.jpg" width="150px"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../ResponsiveHome/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Responsive teams/index.html" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Startups</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Res Event page/index.html" class="nav-link">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="hamburger-visible">
+          <button
+            onclick="openNav()"
+            style="border: none; background-color: transparent"
+          >
+            <img src="./assests/hamburger.png" class="nav-logo-icon" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div id="mySidenav" class="sidenav hide">
+      <a
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a>
+      <div class="menu-bar-logo">
+        <img src="./assests/Rectangle 442.png" />
+        <img src="./assests/User.png">
+
+      </div>
+      <br>
+      <div class="menu-bar-links">
+        <ul>
+          <li><a>Become a Member</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>Events</a></li>
+        </ul>
+      </div>
+      <div class="menu-bar-footer"></div>
+    </div>
+    <div class="events">
+      <div class="event-element">
+        <div class="title">
+          IIEC Entrepreneurship Development Programme (EDP) - Workshop
+        </div>
+        <div class="info">
+          <div class="details">
+            <div class="para">
+              EDP is aimed to develop entrepreneurial abilities among our
+              students (both engineering and non engineering domains) by
+              inculcating the required skills and knowledge needed for starting
+              and running his/her enterprise. It also addresses various other
+              entrepreneurial needs for establishing successful ventures. Mr.
+              Ravi Eswarapu, The Program Chair, TiE-AP who has more than 15
+              years of experience in entrepreneurship and incubation took this
+              session on a variety of views and topics.
+            </div>
+            <div class="conclusion">
+              <div class="day">
+                <div class="month">Jan</div>
+                <div class="date">27</div>
+                <div class="year">2023</div>
+              </div>
+              <div class="attendance">
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                  <div>Attendance: 63</div>
+                </button>
+              </div>
+              <div class="coordinator">
+                <button>
+                  <img src="./assests/Event Management.png" />
+                  <div>
+                    Event Coordinator: Dr. Y.V.Pavan Kumar,Dr. Alok Kumar Shukla
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="img"><img src="./assests/Frame 45.png" /></div>
+        </div>
+      </div>
+      <div class="event-element">
+        <div class="title">IIEC World Entrepreneurs Day Event 2022</div>
+        <div class="info">
+          <div class="details">
+            <div class="para">
+              The purpose of World Entrepreneurs Day is to create awareness for
+              innovation, incubation and entrepreneurship among the students and
+              faculty. VITAP University supports the aspirations of young
+              innovators to become successful entrepreneurship through IIEC. Mr.
+              Rajaneesh Vasanta, who is the Founder of ANTAR IoT interacted with
+              the participants and explained the importance of start ups and
+              incubation programs for the development of the nation. He also
+              shared his experiences on how they helped clients on addressing
+              issues. Another session was handled by Mr. Sreeram Raavi, who is
+              the Founder & CEO Eruvaka Technologies.
+            </div>
+            <div class="conclusion">
+              <div class="day">
+                <div class="month">Aug</div>
+                <div class="date">02</div>
+                <div class="year">2022</div>
+              </div>
+              <div class="attendance">
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                  <div>Attendance: 40</div>
+                </button>
+              </div>
+              <div class="coordinator">
+                <button>
+                  <img src="./assests/Event Management.png" />
+                  <div>Event Coordinator: Dr. Sabeel Basheer</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="img"><img src="./assests/Frame 46.png" /></div>
+        </div>
+      </div>
+      <div class="event-element">
+        <div class="title">
+          IIEC Patent Examination Process - An Emphasis on First Examination
+          Report (FER)
+        </div>
+        <div class="info">
+          <div class="details">
+            <div class="para">
+              A meeting convened, on patent examination with glee. The focus of
+              the day, First Examination Reports (FER), To unravel the
+              intricacies, their significance to confer.Scholars and experts
+              gathered, minds sharp and keen, Discussing the process, analyzing
+              each scene. Insights were shared, strategies were debated, To
+              streamline the FER, make the process updated. Ideas sparked,
+              innovation set ablaze, At Vitap University, knowledge led the
+              ways.
+            </div>
+            <div class="conclusion">
+              <div class="day">
+                <div class="month">Sep</div>
+                <div class="date">10</div>
+                <div class="year">2022</div>
+              </div>
+              <div class="attendance">
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                  <div>Attendance: 20</div>
+                </button>
+              </div>
+              <div class="coordinator">
+                <button>
+                  <img src="./assests/Event Management.png" />
+                  <div>
+                    Event Coordinator: Dr. Ameet Chavan, Dr. Y.V.Pavan Kumar,
+                    Dr. Sudha Ellison Mathe
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="img"><img src="./assests/Frame 47.png" /></div>
+        </div>
+      </div>
+      <div class="event-element">
+        <div class="title">
+          IIEC National Innovation Day - Problem Identification & Idea
+          Evaluation
+        </div>
+        <div class="info">
+          <div class="details">
+            <div class="para">
+              This session was aimed to develop creative problem identification
+              and design thinking abilities among our students (both engineering
+              and non engineering domains) by inculcating the required skills
+              and knowledge needed for identifying problems and idea evaluation.
+              It also places a special focus on design thinking to think
+              critically and creatively. "Mr. Raman Teja Venigalla, CTO, IBS
+              GLOBAL", who is a successful young entrepreneur and has experience
+              of design thinking, entrepreneurship and incubation took place in
+              this interactive session.
+            </div>
+            <div class="conclusion">
+              <div class="day">
+                <div class="month">Oct</div>
+                <div class="date">15</div>
+                <div class="year">2022</div>
+              </div>
+              <div class="attendance">
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                  <div>Attendance: 58</div>
+                </button>
+              </div>
+              <div class="coordinator">
+                <button>
+                  <img src="./assests/Event Management.png" />
+                  <div>Event Coordinator: Dr. Anindita Shome</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="img"><img src="./assests/Frame 48.png" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-columns">
+        <div class="footer-column info-us">
+          <h2 class="footer-heading">Contact Us</h2>
+          <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="margin-left: 7px">
+              VIT-AP University, G-30,<br />
+              Inavolu, Beside AP<br />
+              Secretariat Amaravati,<br />
+              Andhra Pradesh 522237
+            </p>
+          </div>
+          <div class="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <p>director.iiec@vitap.ac.in</p>
+          </div>
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <p>123-456-7890</p>
+          </div>
+        </div>
+        <div class="footer-column">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column-form">
+          <h2 class="footer-heading-form">Stay Connected</h2>
+          <p class="footer-subtitle">
+            Sign up to our newsletter to hear about Events, collaborations and
+            what we're getting up to.
+          </p>
+          <form class="footer-form">
+            <input
+              type="email"
+              class="footer-input"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="footer-button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
