@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Teams Page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="../ResponsiveHome/index.html" class="nav-logo"
+          ><img src="./assests/VTBIF Logo2.jpg" width="150px"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../ResponsiveHome/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Responsive teams/index.html" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Startups</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Res Event page/index.html" class="nav-link">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="hamburger-visible">
+          <button
+            onclick="openNav()"
+            style="border: none; background-color: transparent"
+          >
+            <img src="./assests/hamburger.png" class="nav-logo-icon" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div id="mySidenav" class="sidenav hide">
+      <a
+          href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a>
+      <div class="menu-bar-logo">
+        <img src="./assests/Rectangle 442.png" />
+        <img src="./assests/User.png">
+
+      </div>
+      <br>
+      <div class="menu-bar-links">
+        <ul>
+          <li><a>Become a Member</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>Events</a></li>
+        </ul>
+      </div>
+      <div class="menu-bar-footer"></div>
+    </div>
+    <section class="main-content">
+      <h1>OUR TEAMS</h1>
+    </section>
+    <div class="empty-sm"></div>
+    <section class="cards">
+      <div class="card">
+        <div class="pic"><img src="./assests/ameet.jpeg" /></div>
+        <div class="detail">
+          <div class="name">Dr. Ameet Chavan</div>
+          <div class="qualification">
+            Professor (SENSE), Director (IIEC),<br />
+            I/C Director (SpoRIC), SMIEEE, VITAP<br />
+            University
+          </div>
+        </div>
+      </div>
+      <div class="card-reverse">
+        <div class="pic"><img src="./assests/sudha.jpeg" /></div>
+        <div class="detail">
+          <div class="name">Dr. Sudha Ellison Mathe</div>
+          <div class="qualification">
+            Deputy Director, IIEC & Associate<br />
+            Professor , VIT-AP
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="pic"><img src="./assests/sb.jpeg" /></div>
+        <div class="detail">
+          <div class="name">Dr. S. Sibi Chakkaravarthy</div>
+          <div class="qualification">
+            Founder at Digital Fortress , Security<br />
+            Researcher , Academician
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="empty-sm"></div>
+    <div class="cards-button">
+      <button ><a href="../Responsive Gen Council/index.html">View the Governing Council</a></button>
+    </div>
+    <div class="footer">
+      <div class="footer-columns">
+        <div class="footer-column info-us">
+          <h2 class="footer-heading">Contact Us</h2>
+          <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="margin-left: 7px">
+              VIT-AP University, G-30,<br />
+              Inavolu, Beside AP<br />
+              Secretariat Amaravati,<br />
+              Andhra Pradesh 522237
+            </p>
+          </div>
+          <div class="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <p>director.iiec@vitap.ac.in</p>
+          </div>
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <p>123-456-7890</p>
+          </div>
+        </div>
+        <div class="footer-column">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column-form">
+          <h2 class="footer-heading-form">Stay Connected</h2>
+          <p class="footer-subtitle">
+            Sign up to our newsletter to hear about Events, collaborations and
+            what we're getting up to.
+          </p>
+          <form class="footer-form">
+            <input
+              type="email"
+              class="footer-input"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="footer-button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
