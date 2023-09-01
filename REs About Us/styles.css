@@ -65,8 +65,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #000;
-  scale: 1.1;
+  text-decoration: underline;
 }
 
 .nav-logo {
@@ -95,6 +94,8 @@ a {
   .hide-mob{
     display: block;
     
+  }.nav-link:hover {
+    color: #fff;
   }
   .hide-mob i{
     color: #fff;
