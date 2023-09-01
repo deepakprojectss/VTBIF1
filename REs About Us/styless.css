@@ -1,0 +1,36 @@
+.hero-2
+ {
+    position: relative;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+  }
+  .hero-2
+   h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  .hero-2
+   img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .hero-2
+   p {
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-2
+   .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
