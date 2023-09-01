@@ -70,11 +70,18 @@ a {
   font-weight: 500;
   color: #482ff7;
 }
+.hide-mob {
+  display: none;
+}
+.ham-icon {
+  font-size: 30px;
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
+    z-index: 1;
     padding: 10px;
     color: #fff;
     top: 4rem;
@@ -86,7 +93,12 @@ a {
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
+  .hide-mob {
+    display: block;
+  }
+  .hide-mob i {
+    color: #fff;
+  }
   .nav-menu.active {
     left: 0;
   }
@@ -98,10 +110,12 @@ a {
   .hamburger {
     display: block;
     cursor: pointer;
+    z-index: 2;
   }
 
   .hamburger span {
     background-color: #000;
+    z-index: 2;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -112,31 +126,37 @@ a {
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
     background-color: #fff;
+    z-index: 2;
   }
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
+    z-index: 2;
   }
 
   .hamburger-visible {
     display: none;
     cursor: pointer;
+    z-index: 2;
   }
 
   .hamburger-visible.active .bar:nth-child(2) {
     opacity: 0;
     background-color: #fff;
+    z-index: 2;
   }
 
   .hamburger-visible.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
     background-color: #fff;
+    z-index: 2;
   }
 
   .hamburger-visible.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
+    z-index: 2;
   }
 }
 
@@ -283,7 +303,6 @@ body {
   overflow-x: hidden;
   background-image: url("./assests/Articles.png");
   background-size: contain;
-   
 }
 .main-content {
   display: flex;

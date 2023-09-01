@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-image: url("./assests/HomePage\ \(1\)\ 1.png");
 }
 
@@ -64,7 +64,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #fff;
   scale: 1.1;
 }
 
@@ -73,10 +73,16 @@ a {
   font-weight: 500;
   color: #482ff7;
 }
+.ham-icon {
+  font-size: 30px;
+}
+.hide-mob {
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     padding: 10px;
     color: #fff;
@@ -88,6 +94,12 @@ a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .hide-mob {
+    display: block;
+  }
+  .hide-mob i {
+    color: #fff;
   }
 
   .nav-menu.active {
@@ -304,7 +316,6 @@ body {
   align-items: center;
   gap: 30px;
 }
- 
 
 .info {
   display: flex;
@@ -363,7 +374,7 @@ body {
 .coordinator button i {
   color: #000;
 }
- 
+
 .date {
   font-size: 24px;
   font-weight: 700;
@@ -375,7 +386,7 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
   .events {
     padding: 10px;
     display: flex;
@@ -397,7 +408,7 @@ body {
     gap: 30px;
     height: 100%;
   }
-  
+
   .info {
     display: flex;
     justify-content: space-between;
@@ -413,15 +424,14 @@ body {
     text-align: center;
     font-weight: 500;
   }
-  
+
   .para {
     font-size: 16px;
     color: #fff;
     font-weight: 500;
     text-align: center;
- 
   }
-  .img img{
+  .img img {
     width: 100%;
   }
   .conclusion {
@@ -430,7 +440,6 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
- 
   }
   .day {
     display: flex;
@@ -438,7 +447,6 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    
   }
   .attendance button {
     display: flex;
@@ -449,7 +457,6 @@ body {
     border: none;
     background-color: #fff;
     border-radius: 30px;
-    
   }
   .attendance button i {
     color: #000;
@@ -457,7 +464,8 @@ body {
   .coordinator button {
     display: flex;
     align-items: center;
-    gap: 0px;font-weight: 500;
+    gap: 0px;
+    font-weight: 500;
     padding: 5px 10px;
     font-size: 10px;
     border: none;
@@ -478,7 +486,6 @@ body {
     font-size: 20px;
     font-weight: 700;
   }
-  
 }
 .sidenav {
   width: 332px;

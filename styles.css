@@ -11,7 +11,8 @@ html {
   overflow-y: auto;
 }
 body{
-  background-image: url("./assests/HomePage\ \(1\)\ 1.png");
+  background-image: url("./assests/HomeBackground.png");
+  background-size: 100%;
 }
 li {
   list-style: none;
@@ -36,7 +37,9 @@ a {
 .hamburger-visible {
   display: block;
 }
-
+.ham-icon{
+  font-size: 30px;
+}
 .bar {
   display: block;
   width: 25px;
@@ -72,10 +75,19 @@ a {
   font-weight: 500;
   color: #482ff7;
 }
-
+.hide-mob{
+  display: none;
+}
 @media only screen and (max-width: 768px) {
+  .hide-mob{
+    display: block;
+    
+  }
+  .hide-mob i{
+    color: #fff;
+  }
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     padding: 10px;
     color: #fff;

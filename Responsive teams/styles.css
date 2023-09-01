@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   color: #fff;
 }
-body{
+body {
   background-image: url("./assests/HomePage\ \(1\)\ 1.png");
 }
 html {
@@ -66,8 +66,11 @@ a {
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #fff;
   scale: 1.1;
+}
+.ham-icon {
+  font-size: 30px;
 }
 
 .nav-logo {
@@ -75,10 +78,14 @@ a {
   font-weight: 500;
   color: #482ff7;
 }
+.hide-mob {
+  display: none;
+}
+
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     padding: 10px;
     color: #fff;
@@ -91,7 +98,12 @@ a {
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
+  .hide-mob {
+    display: block;
+  }
+  .hide-mob i{
+    color: #fff;
+  }
   .nav-menu.active {
     left: 0;
   }
@@ -332,7 +344,6 @@ body {
   text-align: center;
 }
 .qualification {
- 
   font-size: 20px;
   text-align: center;
 }
@@ -362,7 +373,7 @@ body {
   color: #fff;
   font-weight: 500;
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
   .card {
     display: flex;
     justify-content: space-between;
