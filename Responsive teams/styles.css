@@ -66,8 +66,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
-  scale: 1.1;
+  text-decoration: underline;
 }
 .ham-icon {
   font-size: 30px;
@@ -97,6 +96,8 @@ a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }.nav-link:hover {
+    color: #fff;
   }
   .hide-mob {
     display: block;

@@ -63,9 +63,9 @@ a {
 }
 
 .nav-link:hover {
-  color: #000;
-  scale: 1.1;
+  text-decoration: underline;
 }
+
 
 .nav-logo {
   font-size: 2.1rem;
@@ -87,6 +87,8 @@ a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }.nav-link:hover {
+    color: #fff;
   }
 
   .nav-menu.active {
