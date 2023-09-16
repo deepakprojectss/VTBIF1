@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+a {
+  color: #fff;
+}
+body {
+  background-image: url("./assests/HomePage\ \(1\)\ 1.png");
+}
+html {
+ 
+
+  overflow-y: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ 
+
+.footer {
+  background-image: linear-gradient(red, #8e3333, #d4a8a8);
+  color: #fff;
+  padding: 30px 0;
+  width: 100%;
+}
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0 50px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+.footer-column-form {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.footer-heading {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footer-subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer-input {
+  width: 100%;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+}
+.footer-button {
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-left: -50px;
+}
+.footer-column i {
+  font-size: 2.25rem;
+}
+.address {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.mail {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.contact {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-links {
+  display: flex;
+
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-links li a {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+.footer-heading-form {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer-social {
+  padding: 40px;
+  height: fit-content;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  width: 462px;
+  font-size: 2.25rem;
+}
+.footer-social a i {
+  font-size: 2.25rem;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+  }
+  .footer-social {
+    width: 100%;
+  }
+  .footer-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-links li {
+    text-align: center;
+  }
+  .info-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    margin-left: -70px;
+  }
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("./assests/Frame\ 31.png");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.main-content h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+
+
+.cards {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+}
+.card-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+}
+.pic img {
+  border-radius: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+.qualification {
+  font-size: 20px;
+  text-align: center;
+}
+.empty {
+  height: 100px;
+  width: 100%;
+}
+.empty-sm {
+  height: 50px;
+  width: 100%;
+}
+.cards-button {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards-button button {
+  
+   width: 576px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #000;
+  opacity: 0.77;
+}
+.cards-button button p {
+  color: #fff;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .card1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  .card-reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  .cards-button button{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+  width: 332px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 1;
+
+  background: radial-gradient(
+      26.43% 129.79% at 22.92% -406.15%,
+      #ff0000 10%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      26deg,
+      rgba(235.42, 101.03, 101.03, 0.2) 0%,
+      rgba(236.48, 2.96, 2.96, 0) 100%
+    );
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  animation-name: ;
+  animation-duration: 2000ms;
+}
+@keyframes example {
+  from {
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+  to {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+.menu-bar-footer {
+  height: 100px;
+  background-image: linear-gradient(to right, #fa9b9b, #fff);
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+@keyframes revexample {
+  from {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  to {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+ 
+  right: 30px;
+  font-size: 36px;
+}
+.menu-bar-logo {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.menu-bar-links ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.menu-bar-links ul li {
+  padding: 10px 20px;
+  background-color: #000;
+  width: 100%;
+}
+.menu-bar-links ul li a {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
