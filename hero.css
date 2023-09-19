@@ -49,13 +49,13 @@ body{
   }
   
   .hero-title {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 10px;
     
   }
   
   .hero-subtitle {
-    font-size: 36px;
+    font-size: 26px;
     width: 600px;
     margin-bottom: 20px;
   }
@@ -75,7 +75,7 @@ body{
   }
   .hero-info {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 12px;
     margin-bottom: 20px;width: 600px;
   }
   .hero-button p{
@@ -92,7 +92,7 @@ body{
     width: 100%;
   }
   .hero-2 h1 {
-    font-size: 60px;
+    font-size: 40px;
     margin: 0;
   }
   .hero-2 img {
@@ -103,7 +103,7 @@ body{
     margin-top: 20px;
   }
   .hero-2 p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     padding: 0px 200px;
     text-align: center;
