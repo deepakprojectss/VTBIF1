@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      /* font-family: "Poppins", sans-serif; */
+  }
+  a {
+    color: #fff;
+  }
+  body {
+    background-image: url("./assests/HomePage\ \(1\)\ 1.png");
+  }
+  html {
+   
+  
+    overflow-y: auto;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+   
+  
+ 
+  a:hover {
+    text-decoration: underline;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+
+ .startups{
+  display: flex;flex-direction: column;
+  align-items: center;width: 100%;
+  justify-content: center;
+  
+  
+ }
+ .startup{
+ height: 619px;width: 1312px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+ }
+ .one{
+  background-image: url("./Backgrounds/s1.png");
+  background-size: cover;background-repeat: no-repeat;
+ }
+ .two{
+  background-image: url("./Backgrounds/s2.png");background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .three{
+  background-image: url("./Backgrounds/s3.png");background-size: cover;background-repeat: no-repeat;
+ }
+ .four{
+  background-image: url("./Backgrounds/s4.png");background-size: cover;background-repeat: no-repeat;
+ }
+ .five{
+  background-image: url("./Backgrounds/s5.png");background-size: cover;background-repeat: no-repeat;
+ }
+  
+.startup-info{
+  background-color: white;
+  border-radius: 30px;
+  padding: 60px ;
+}
+ul.b {list-style-type: square;}
+@media (max-width: 768px) {
+  .startups{
+    padding: 0px 20px;
+  }
+  .startup{
+    height: 500px;width: 100%;
+    display: flex;
+    background-position-x: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    }
+    .startup-info{
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px;
+      width: 100%;
+    }
+    .startup-info h3{
+      font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .learnmore-btn button{
+    border: none;
+    background-color: #000;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 20px;
+
+  }
+
+
+
+ 

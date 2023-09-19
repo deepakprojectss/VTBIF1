@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      /* font-family: "Poppins", sans-serif; */
+  }
+  a {
+    color: #fff;
+  }
+  body {
+    background-image: url("./assests/HomePage\ \(1\)\ 1.png");
+  }
+  html {
+   
+  
+    overflow-y: auto;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+   
+  
+
+  a:hover {
+    text-decoration: underline;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+
+  .hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    gap: 50px;
+     
+  }
+  .grid-pic{
+    width: 600px;
+  }
+  .grid-pic img{
+    width: 100%;
+     
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 30px; 
+    width: 100%;
+    
+  
+  }
+  .title{
+    font-weight: 700;
+    font-size: 48px;width: 100%;
+  }
+  .para{
+    font-size: 16px;
+     width: 100%;
+     
+  }
+   
+  .button a{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    width: 250px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.7;
+  }
+  @media (max-width:768px){
+    .hero{
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 20px 40px;
+      width: 100%;
+    }
+    .grid-pic{
+      display: flex;
+      justify-content: center;
+    }
+    .grid-pic img{
+       width: 300px;
+       
+    }
+    .info{
+      text-align: center;
+      width: 100%;
+      gap: 40px;
+    
+    }.para{
+      font-size: 15px;
+      width: 100%;
+       
+    }.title{
+      font-weight: 700;
+      font-size: 36px;
+    }
+    .button{
+      display: flex;
+      justify-content: center;
+    }}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

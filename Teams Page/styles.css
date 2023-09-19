@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+body{
+  background-image: url("./assests/HomeBackground.png");
+}
+a {
+  color: #fff;
+}
+
+html {
+ 
+
+  overflow-y: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ 
+a:hover {
+  text-decoration: underline;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("./assests/Frame\ 31.png");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.main-content h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+
+.cards {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+}
+.card-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+}
+.pic img {
+  border-radius: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+
+.empty {
+  height: 100px;
+  width: 100%;
+}
+.empty-sm {
+  height: 50px;
+  width: 100%;
+}
+.cards-button {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards-button button {
+  
+   width: 576px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #000;
+  opacity: 0.77;
+}
+.cards-button button p {
+  color: #fff;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .card1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  .card-reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  .cards-button button{
+    width: 100%;
+  }
+  .qualification{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
