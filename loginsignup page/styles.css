@@ -1,0 +1,100 @@
+body{
+    background-image: url("./assests/background.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.containers1{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+   
+}
+.containers2{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+   
+}
+.login-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 150px;
+    height: 100%;
+   
+}
+.signup-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 150px;
+    height: 100%;
+   
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.submit-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.login-img{
+    height: 500px;
+    padding-right:200px;
+    border-right: 5px solid red;
+    display:flex ;
+    align-items: center;
+}
+.signup-img{
+    height: 500px;
+    padding-left:200px;
+    border-left: 5px solid red;
+    display:flex ;
+    align-items: center;
+}
+.btns{
+    padding: 30px;
+}
+button.signup-btn{
+    background-color: transparent;border: none;
+    color: black;font-size: 30px;margin-right: 10px;
+}
+button.login-btn{
+    background-color: transparent;
+    color: black;border: none;font-size: 30px;margin-right: 10px;
+
+}
+.active{
+    text-decoration: underline solid red;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+@media(max-width:786px){
+    .login-img{
+     display: none;
+    }
+    .signup-img{
+        display: none;
+    }
+    .signup-container{
+        padding: 10px;
+    }
+    .login-container{
+        padding: 10px;
+    }
+}
