@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="sidebar.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 
@@ -36,7 +39,7 @@
                         <a class="nav-link mx-2" style="font-size: 20px" href="./Teams Page/index.html">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" style="font-size: 20px" href="./Startup Page/index.html">StartUps</a>
+                        <a class="nav-link mx-2" style="font-size: 20px" href="./StartUp Page/index.html">StartUps</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" style="font-size: 20px" href="./Events page/index.html">Events</a>
@@ -63,15 +66,16 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="menu-bar-logo">
             <img src="./assests/Rectangle 442.png" />
-            <img src="./assests/User.png" />
+            <a href="./loginsignup page/index.html">
+                <img src="./assests/User.png" /></a>
         </div>
         <br />
         <div class="menu-bar-links">
             <ul style="padding-left: 0px">
-                <li><a>Become a Member</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a>Events</a></li>
+                <li><a style="color: white;">Become a Member</a></li>
+                <li><a style="color: white;">Portfolio</a></li>
+                <li><a style="color: white;">Contact Us</a></li>
+                <li><a style="color: white;">Events</a></li>
             </ul>
         </div>
         <div class="menu-bar-footer"></div>
@@ -117,7 +121,38 @@
     <br /><br />
     <div class="hero-2 reveal">
         <h1>About Us</h1>
-        <img src="./assests/Hero Image.png" alt="About Us Image" />
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="text-center">
+                        <img src="https://deepakprojectss.github.io/VTBIF1/assests/Hero%20Image.png" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <img src="https://deepakprojectss.github.io/VTBIF1/assests/Hero%20Image.png" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <img src="https://deepakprojectss.github.io/VTBIF1/assests/Hero%20Image.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <p>
             VITAP University had established Innovation Incubation Entrepreneurship
             Cell (IIEC), to provide mentorship, training, and resources to help
@@ -159,10 +194,244 @@
     <br />
 
 
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-row">
+                    <div class="card">
+                        <br /><br />
+                        <div class="card-image">
+                            <img src="./assests/c1.png" alt="" />
+                        </div>
+                        <br /><br />
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c2.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c3.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-row">
+                    <div class="card">
+                        <br /><br />
+                        <div class="card-image">
+                            <img src="./assests/c1.png" alt="" />
+                        </div>
+                        <br /><br />
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c2.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c3.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-row">
+                    <div class="card">
+                        <br /><br />
+                        <div class="card-image">
+                            <img src="./assests/c1.png" alt="" />
+                        </div>
+                        <br /><br />
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c2.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assests/c3.png" alt="" />
+                        </div>
+                        <div class="card-matter">
+                            It involves using biometric security software to automatically
+                            recognize people based on their behavioral or biological
+                            characteristics.
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-matter">
+                            Location: VTBIF , VIT-AP, India<br />Founding Year: 2023<br />
+                            Industry: Technology
+                        </div>
+                        <div class="line-divide">
+                            <hr />
+                        </div>
+                        <div class="card-button"><button>Learn more</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
 
-  
+
+
+
 
 
     <div class="services reveal">

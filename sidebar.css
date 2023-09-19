@@ -1,23 +1,15 @@
 .sidenav {
   width: 332px;
   position: absolute;
-  top: 50px;
+  top: 70px;
   right: 50px;
-  z-index: 1;
+  z-index: 10000;
 
-  background: radial-gradient(
-      26.43% 129.79% at 22.92% -406.15%,
-      #ff0000 10%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      26deg,
-      rgba(235.42, 101.03, 101.03, 0.2) 0%,
-      rgba(236.48, 2.96, 2.96, 0) 100%
-    );
+  background-color: white;
+  border: 1px solid black;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 70px;
+  padding-top: 30px;
   animation-name: ;
   animation-duration: 2000ms;
 }
@@ -35,7 +27,7 @@
 }
 .menu-bar-footer {
   height: 100px;
-  background-image: linear-gradient(to right, #fa9b9b, #fff);
+ 
 }
 .hide {
   display: none;
